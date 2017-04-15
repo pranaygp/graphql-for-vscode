@@ -1,0 +1,17 @@
+{
+  "fileTypes": ["feature"],
+  "scopeName": "text.gherkin.feature.graphql",
+  "injectionSelector": "L:text -comment",
+  "patterns": [
+    {
+      "begin": "graphql request\\n?\\s*\"\"\"",
+      "end": "\"\"\"",
+      "patterns": [
+        {
+          "name": "featureGQL",
+          "include": "source.graphql"
+        }
+      ]
+    }
+  ]
+}

@@ -101,6 +101,13 @@
         ],
         "scopeName": "relayQL.graphql",
         "path": "./syntaxes/graphql.js.json"
+      },
+      {
+        "injectTo": [
+          "text.gherkin.feature"
+        ],
+        "scopeName": "text.gherkin.feature.graphql",
+        "path": "./syntaxes/graphql.feature.json"
       }
     ],
     "snippets": [
