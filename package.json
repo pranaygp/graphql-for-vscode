@@ -124,7 +124,7 @@
   "devDependencies": {
     "@types/node": "^6.0.40",
     "conventional-recommended-bump": "^0.3.0",
-    "semantic-release": "^6.3.2",
+    "semantic-release": "^17.2.3",
     "semantic-release-visualstudio-marketplace-version": "^1.0.0",
     "typescript": "^2.0.10",
     "vscode": "^1.0.3",
